@@ -13,7 +13,7 @@ export default function About() {
         Current tools: React, Tailwind, Firebase, MUI, Vite.
       </p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 reveal">
-        {["React", "TypeScript (optional)", "Tailwind", "MUI", "Firebase", "GitHub Actions"].map((s) => (
+        {["React", "TypeScript (optional)", "Tailwind", "MUI", "Firebase", "GitHub Actions", "Git"].map((s) => (
           <div key={s} className="bg-card/60 border border-white/5 rounded-lg p-4">{s}</div>
         ))}
       </div>
